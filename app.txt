@@ -1,0 +1,77 @@
+Software Requirements Specifications for Flash Bites Eatery
+
+Introduction:
+The purpose of this document is to provide a detailed software requirements specification for Flash Bites Eatery online food delivery system. The system will allow customers to order food online.
+
+Functional Requirements:
+1. User Registration:
+The system should allow users to register and create an account. Users will need to provide their name, email address, phone number and password.
+
+2. User Login:
+The system should allow registered users to log in using their email address and password.
+
+3. Menu Display:
+The system should display menus for selected catergories of foods and food item pictures.
+
+4. Ordering:
+The system should allow users to add items to their cart and place an order.
+
+5.Restaurant Management:
+The system should allow restaurants to manage their menus, prices, and availability. Restaurants should be able to update their menu items, change prices, and add new dishes.
+
+
+Technical Requirements:
+1. Programming Language:
+The system should be developed using a web-based programming language of React js.
+
+2. Database Management:
+The system should use a relational database management system (RDBMS) to store user data, orders, and restaurant information.
+
+
+Conclusion:
+This software requirements specification outlines the functional and technical requirements for Flash Bites Eatery online food delivery system. The system will provide security to the users.
+
+
+Software Design Description of Flash Bites Eatery online food delivery system.
+
+It is an online food delivery system which deals with one restuarant designed to provide clients with the ability to order food.
+It aims to provide a good experience for both clients and the restaurant owner while ensuring that the system is secure.
+
+Flash Bites Eatery online food delivery system is built using different independent services each with a specific function;
+
+Database: The system uses a relational database to store data and consisting of different tables;
+
+Users: stores user information, including usernames, passwords and contact information.
+Settings: stores the restuarant information, including name, location and working hours.
+Orders: stores informationabout customer orders, including the ordered items.
+Addresses: stores the customer address details, including the name of the place.
+Categories: stores the food cate that the restaurant provides, such as; snacks and beverages.
+Districts: stores the information of the customer district, including the name of the district.
+Regions: stores all the regions of Uganda where different customers stay.
+Food_items: stores the kinds of food items that each category contains.
+
+User Interface:
+The web application has a user-friendly interface that is easy to navigations which includes different sections;
+Home: the landing page displays popular foods provided by the restaurant and the services provided.
+Contact: this section gives clear description on how to contact the experts of restaurant.
+SignUp: gives details on how a client can register to access different services of the restaurant.
+Login: identifies the old client by the initial credentials that were provided.
+
+Security:
+The system protects user information improving its security by using security measures;
+HTTPS encryption for all data in transit.
+User authentication using JWT tokens.
+Input validation and sanitization to prevent SQL injection attacks.
+Use of password hashing to protect user passwords.
+
+Conclusion:
+Flash Bites Eatery online food delivery system is designed to provide customers with a good experience while ensuring that the system is secure. The system consists of several independent services, each responsible for a specific function, and will be deployed on separate servers to ensure fault tolerance, scalability, and maintainability.
+
+Status codes
+400 =>bad request; a user misses required parameters, invalid data types.
+401 => unauthorised; a user is not authenticated.
+404 => not found; a user puts a request does not exist in the server.
+409 => conflict; a user puts a resources that already exists.
+200 => ok; request is successful.
+201 => ok; a resource has been successful created.
+
